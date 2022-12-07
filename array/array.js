@@ -9,3 +9,6 @@ Array.prototype.shuffleArray=function()
    }
    return this;
 }
+String.prototype.stringReverse=function(){
+    return this.split("").reverse().join("")
+}
